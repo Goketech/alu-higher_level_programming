@@ -1,2 +1,2 @@
 #!/usr/bin/node
-module.exports = function () { myVar = 333 }();
+module.exports = (function () { myVar = 333; }());
